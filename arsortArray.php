@@ -6,10 +6,10 @@
 <body>
 <?php
 $names = array('Amal','Bimal','Nim');
-arsort($names);
+arsort($names);                                         //arsort function used ceate associative array  for descending order ,according to the value 
 
 foreach ($names as $x => $x_value) {
-	echo "Key=" . $x . ", Values=" . $x_value;
+	echo "Key=" . $x . ", Values=" . $x_value;          
     echo "<br>";
 
 	# code...
